@@ -5,31 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="services.css">
+
     <title>Modelo b - Acordo Seguros</title>
 </head>
 
-<body class="">
-    <header>
-        <div class="header">
-            <h2><a href="#" target="_blank" rel="noopener noreferrer">SuaEmpresa</a></h2>
-            <div class="mid-spot" onclick="document.body.classList.toggle('gold');"></div>
-            <button class="contact-btn">
-                <span class="glow"></span>
-                <span class="contact-btn-content">Contato</span>
-            </button>
+<body>
+    <div class="header">
+        <h2><a href="#" target="_blank" rel="noopener noreferrer">SuaEmpresa</a></h2>
+        <div class="mid-spot" onclick="document.body.classList.toggle('gold');"></div>
+        <button class="contact-btn">
+            <span class="glow"></span>
+            <span class="contact-btn-content">Contato</span>
+        </button>
 
-            <div class="spotlight">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+        <div class="spotlight">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-    </header>
-
-
+    </div>
     <canvas id="particleCanvas"></canvas>
-
     <div class="accent-lines">
         <div>
             <div></div>
@@ -72,6 +69,51 @@
             Impactante. Sobre</h3>
         <p class="subp">Alguma descrição sobre sua empresa ou sobre seu produto.</p>
     </div>
+    <main>
+        <section id="services">
+            <span>encontre seu</span>
+            <h2>Serviço</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, praesentium veritatis voluptatibus ut
+                consequuntur quas consequatur omnis id rem obcaecati.</p>
+            <span class="bg-watermark">serviço</span>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/img/krakenimages-Y5bvRlcCx8k-unsplash.jpg" alt="Franklin Carlson">
+                    <div class="card-content">
+                        <h3>Seguros</h3>
+                        <p>Pessoal & Comercial</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/jonathan-borba-6sDuV840wxs-unsplash.jpg" alt="Antonia Moore">
+                    <div class="card-content">
+                        <h3>Consórcios</h3>
+                        <p>Automotívo & Imobiliário</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/cardmapr-nl-i-t4zL1Nqc0-unsplash.jpg" alt="Travis Lynch">
+                    <div class="card-content">
+                        <h3>Financiamentos</h3>
+                        <p></p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>
