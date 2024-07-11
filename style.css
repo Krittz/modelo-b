@@ -1,71 +1,3 @@
-/* @import url("https://fonts.cdnfonts.com/css/hubot-sans");
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;
-}
-html,
-body {
-  height: 100%;
-}
-
-html::-webkit-scrollbar {
-  display: none;
-}
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-body {
-  margin: 0;
-  font-family: Untitled Sans, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue,
-    sans-serif;
-  background: #05060f
-    linear-gradient(0deg, rgba(216, 236, 248, 0.06), rgba(152, 192, 239, 0.06));
-
-  font-size: max(calc(var(--_size) * 0.03), 10px);
-  --_factor: min(600px, 80vh);
-  --_size: min(var(--_factor), 80vw);
-}
-
-body.gold .header h2,
-body.gold p,
-body.gold > * > * :not(.contact-btn) {
-  filter: invert(1) brightness(4.7);
-}
-body.gold .header h2 a {
-  filter: hue-rotate(0deg);
-}
-body.gold canvas {
-  filter: drop-shadow(2em 4em 0px #d8bd10) drop-shadow(-8em -14em 0px #d8bd10);
-}
-body.gold .header .spotlight {
-  filter: invert(1) brightness(4.7) opacity(0.5);
-}
-body.gold .mountains > div {
-  box-shadow: -1em -0.2em 0.4em -1.1em #c2ccff, inset 0em 0em 0em 2px #d8a910,
-    inset 0.2em 0.3em 0.2em -0.2em #c2ccff,
-    inset 10.2em 10.3em 2em -10em #d4e6ff2f;
-}
-
-body.gold .content-section,
-body.gold .content-section ::before,
-body.gold .content-section ::after {
-  filter: invert(1) brightness(4.4) opacity(1);
-}
-
-h2 {
-  font-family: "Hubot-Sans", sans-serif;
-}
-h2,
-p {
-  margin: 0;
-  padding: 0;
-} */
-
 @import url("https://fonts.cdnfonts.com/css/hubot-sans");
 * {
   box-sizing: border-box;
@@ -404,7 +336,7 @@ canvas#particleCanvas {
   position: absolute;
   pointer-events: none;
   animation: load 0.4s ease-in-out forwards;
-  z-index: 1;
+  z-index: 111;
   width: 100%;
 }
 
